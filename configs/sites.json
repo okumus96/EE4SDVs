@@ -1,0 +1,845 @@
+{
+  "grid_spacing": 0.35,
+  "sites": [
+    {
+      "id": "BAY_L",
+      "zone": "BAY_L",
+      "thermal_class": "engine_bay",
+      "derating": 0.9,
+      "position": {
+        "x": -0.48,
+        "y": 1.6,
+        "z": 0.88
+      },
+      "orient": "flat_y",
+      "bbox": {
+        "x": [
+          -0.58,
+          -0.38
+        ],
+        "y": [
+          1.45,
+          1.75
+        ],
+        "z": [
+          0.85,
+          0.91
+        ]
+      },
+      "attach_node": "v1784",
+      "drop_length": 0.095
+    },
+    {
+      "id": "BAY_R",
+      "zone": "BAY_R",
+      "thermal_class": "engine_bay",
+      "derating": 0.9,
+      "position": {
+        "x": 0.48,
+        "y": 1.6,
+        "z": 0.88
+      },
+      "orient": "flat_y",
+      "bbox": {
+        "x": [
+          0.38,
+          0.58
+        ],
+        "y": [
+          1.45,
+          1.75
+        ],
+        "z": [
+          0.85,
+          0.91
+        ]
+      },
+      "attach_node": "v6133",
+      "drop_length": 0.096
+    },
+    {
+      "id": "COWL_L",
+      "zone": "COWL_L",
+      "thermal_class": "engine_bay",
+      "derating": 0.9,
+      "position": {
+        "x": -0.3,
+        "y": 1.3,
+        "z": 0.91
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          -0.45,
+          -0.15
+        ],
+        "y": [
+          1.2,
+          1.4
+        ],
+        "z": [
+          0.88,
+          0.94
+        ]
+      },
+      "attach_node": "v2719",
+      "drop_length": 0.036
+    },
+    {
+      "id": "COWL_R",
+      "zone": "COWL_R",
+      "thermal_class": "engine_bay",
+      "derating": 0.9,
+      "position": {
+        "x": 0.3,
+        "y": 1.3,
+        "z": 0.91
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          0.15,
+          0.45
+        ],
+        "y": [
+          1.2,
+          1.4
+        ],
+        "z": [
+          0.88,
+          0.94
+        ]
+      },
+      "attach_node": "v4656",
+      "drop_length": 0.036
+    },
+    {
+      "id": "BAY_C",
+      "zone": "BAY_C",
+      "thermal_class": "engine_bay",
+      "derating": 0.9,
+      "position": {
+        "x": 0.0,
+        "y": 1.58,
+        "z": 0.87
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          -0.15,
+          0.15
+        ],
+        "y": [
+          1.48,
+          1.68
+        ],
+        "z": [
+          0.84,
+          0.9
+        ]
+      },
+      "attach_node": "v3582",
+      "drop_length": 0.207
+    },
+    {
+      "id": "DASH_L",
+      "zone": "DASH_L",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": -0.55,
+        "y": 0.9,
+        "z": 0.75
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          -0.7,
+          -0.4
+        ],
+        "y": [
+          0.8,
+          1.0
+        ],
+        "z": [
+          0.72,
+          0.78
+        ]
+      },
+      "attach_node": "v1370",
+      "drop_length": 0.027
+    },
+    {
+      "id": "DASH_R",
+      "zone": "DASH_R",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.55,
+        "y": 0.9,
+        "z": 0.75
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          0.4,
+          0.7
+        ],
+        "y": [
+          0.8,
+          1.0
+        ],
+        "z": [
+          0.72,
+          0.78
+        ]
+      },
+      "attach_node": "v6043",
+      "drop_length": 0.027
+    },
+    {
+      "id": "KICK_L",
+      "zone": "KICK_L",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": -0.72,
+        "y": 0.75,
+        "z": 0.51
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          -0.75,
+          -0.69
+        ],
+        "y": [
+          0.65,
+          0.85
+        ],
+        "z": [
+          0.36,
+          0.66
+        ]
+      },
+      "attach_node": "v632",
+      "drop_length": 0.088
+    },
+    {
+      "id": "KICK_R",
+      "zone": "KICK_R",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.72,
+        "y": 0.75,
+        "z": 0.51
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          0.69,
+          0.75
+        ],
+        "y": [
+          0.65,
+          0.85
+        ],
+        "z": [
+          0.36,
+          0.66
+        ]
+      },
+      "attach_node": "v6569",
+      "drop_length": 0.088
+    },
+    {
+      "id": "APIL_L",
+      "zone": "APIL_L",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": -0.74,
+        "y": 0.6,
+        "z": 0.85
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          -0.77,
+          -0.71
+        ],
+        "y": [
+          0.5,
+          0.7
+        ],
+        "z": [
+          0.7,
+          1.0
+        ]
+      },
+      "attach_node": "v633",
+      "drop_length": 0.172
+    },
+    {
+      "id": "APIL_R",
+      "zone": "APIL_R",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.74,
+        "y": 0.6,
+        "z": 0.85
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          0.71,
+          0.77
+        ],
+        "y": [
+          0.5,
+          0.7
+        ],
+        "z": [
+          0.7,
+          1.0
+        ]
+      },
+      "attach_node": "v6331",
+      "drop_length": 0.163
+    },
+    {
+      "id": "TUNNEL",
+      "zone": "TUNNEL",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.0,
+        "y": 0.45,
+        "z": 0.42
+      },
+      "orient": "flat_y",
+      "bbox": {
+        "x": [
+          -0.1,
+          0.1
+        ],
+        "y": [
+          0.3,
+          0.6
+        ],
+        "z": [
+          0.39,
+          0.45
+        ]
+      },
+      "attach_node": "v3526",
+      "drop_length": 0.044
+    },
+    {
+      "id": "SEAT_F_L",
+      "zone": "SEAT_F_L",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": -0.4,
+        "y": 0.2,
+        "z": 0.41
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          -0.55,
+          -0.25
+        ],
+        "y": [
+          0.1,
+          0.3
+        ],
+        "z": [
+          0.38,
+          0.44
+        ]
+      },
+      "attach_node": "v2252",
+      "drop_length": 0.044
+    },
+    {
+      "id": "SEAT_F_R",
+      "zone": "SEAT_F_R",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.4,
+        "y": 0.2,
+        "z": 0.41
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          0.25,
+          0.55
+        ],
+        "y": [
+          0.1,
+          0.3
+        ],
+        "z": [
+          0.38,
+          0.44
+        ]
+      },
+      "attach_node": "v5063",
+      "drop_length": 0.044
+    },
+    {
+      "id": "SEAT_R_L",
+      "zone": "SEAT_R_L",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": -0.35,
+        "y": -0.85,
+        "z": 0.41
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          -0.5,
+          -0.2
+        ],
+        "y": [
+          -0.95,
+          -0.75
+        ],
+        "z": [
+          0.38,
+          0.44
+        ]
+      },
+      "attach_node": "v2460",
+      "drop_length": 0.032
+    },
+    {
+      "id": "SEAT_R_R",
+      "zone": "SEAT_R_R",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.35,
+        "y": -0.85,
+        "z": 0.41
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          0.2,
+          0.5
+        ],
+        "y": [
+          -0.95,
+          -0.75
+        ],
+        "z": [
+          0.38,
+          0.44
+        ]
+      },
+      "attach_node": "v4786",
+      "drop_length": 0.032
+    },
+    {
+      "id": "BPIL_L",
+      "zone": "BPIL_L",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": -0.85,
+        "y": -0.2,
+        "z": 0.75
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          -0.88,
+          -0.82
+        ],
+        "y": [
+          -0.3,
+          -0.1
+        ],
+        "z": [
+          0.6,
+          0.9
+        ]
+      },
+      "attach_node": "v333",
+      "drop_length": 0.059
+    },
+    {
+      "id": "BPIL_R",
+      "zone": "BPIL_R",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.85,
+        "y": -0.2,
+        "z": 0.75
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          0.82,
+          0.88
+        ],
+        "y": [
+          -0.3,
+          -0.1
+        ],
+        "z": [
+          0.6,
+          0.9
+        ]
+      },
+      "attach_node": "v6975",
+      "drop_length": 0.059
+    },
+    {
+      "id": "CPIL_L",
+      "zone": "CPIL_L",
+      "thermal_class": "trunk",
+      "derating": 0.9,
+      "position": {
+        "x": -0.85,
+        "y": -1.42,
+        "z": 0.95
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          -0.88,
+          -0.82
+        ],
+        "y": [
+          -1.52,
+          -1.32
+        ],
+        "z": [
+          0.8,
+          1.1
+        ]
+      },
+      "attach_node": "v13",
+      "drop_length": 0.047
+    },
+    {
+      "id": "CPIL_R",
+      "zone": "CPIL_R",
+      "thermal_class": "trunk",
+      "derating": 0.9,
+      "position": {
+        "x": 0.85,
+        "y": -1.42,
+        "z": 0.95
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          0.82,
+          0.88
+        ],
+        "y": [
+          -1.52,
+          -1.32
+        ],
+        "z": [
+          0.8,
+          1.1
+        ]
+      },
+      "attach_node": "v7102",
+      "drop_length": 0.047
+    },
+    {
+      "id": "TRUNK_L",
+      "zone": "TRUNK_L",
+      "thermal_class": "trunk",
+      "derating": 0.9,
+      "position": {
+        "x": -0.74,
+        "y": -1.85,
+        "z": 0.95
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          -0.77,
+          -0.71
+        ],
+        "y": [
+          -1.95,
+          -1.75
+        ],
+        "z": [
+          0.8,
+          1.1
+        ]
+      },
+      "attach_node": "v471",
+      "drop_length": 0.027
+    },
+    {
+      "id": "TRUNK_R",
+      "zone": "TRUNK_R",
+      "thermal_class": "trunk",
+      "derating": 0.9,
+      "position": {
+        "x": 0.74,
+        "y": -1.85,
+        "z": 0.95
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          0.71,
+          0.77
+        ],
+        "y": [
+          -1.95,
+          -1.75
+        ],
+        "z": [
+          0.8,
+          1.1
+        ]
+      },
+      "attach_node": "v6643",
+      "drop_length": 0.027
+    },
+    {
+      "id": "UFLOOR_L",
+      "zone": "UFLOOR_L",
+      "thermal_class": "underbody",
+      "derating": 0.9,
+      "position": {
+        "x": -0.47,
+        "y": -1.7,
+        "z": 0.52
+      },
+      "orient": "flat_y",
+      "bbox": {
+        "x": [
+          -0.57,
+          -0.37
+        ],
+        "y": [
+          -1.85,
+          -1.55
+        ],
+        "z": [
+          0.49,
+          0.55
+        ]
+      },
+      "attach_node": "v1874",
+      "drop_length": 0.043
+    },
+    {
+      "id": "UFLOOR_R",
+      "zone": "UFLOOR_R",
+      "thermal_class": "underbody",
+      "derating": 0.9,
+      "position": {
+        "x": 0.47,
+        "y": -1.7,
+        "z": 0.52
+      },
+      "orient": "flat_y",
+      "bbox": {
+        "x": [
+          0.37,
+          0.57
+        ],
+        "y": [
+          -1.85,
+          -1.55
+        ],
+        "z": [
+          0.49,
+          0.55
+        ]
+      },
+      "attach_node": "v5230",
+      "drop_length": 0.043
+    },
+    {
+      "id": "ROOF_F",
+      "zone": "ROOF_F",
+      "thermal_class": "roof",
+      "derating": 0.9,
+      "position": {
+        "x": 0.0,
+        "y": 0.3,
+        "z": 1.5
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          -0.15,
+          0.15
+        ],
+        "y": [
+          0.2,
+          0.4
+        ],
+        "z": [
+          1.47,
+          1.53
+        ]
+      },
+      "attach_node": "v3515",
+      "drop_length": 0.056
+    },
+    {
+      "id": "ROOF_R",
+      "zone": "ROOF_R",
+      "thermal_class": "roof",
+      "derating": 0.9,
+      "position": {
+        "x": 0.0,
+        "y": -1.25,
+        "z": 1.5
+      },
+      "orient": "flat",
+      "bbox": {
+        "x": [
+          -0.15,
+          0.15
+        ],
+        "y": [
+          -1.35,
+          -1.15
+        ],
+        "z": [
+          1.47,
+          1.53
+        ]
+      },
+      "attach_node": "v3414",
+      "drop_length": 0.034
+    },
+    {
+      "id": "DOOR_F_L",
+      "zone": "DOOR_F_L",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": -0.88,
+        "y": 0.35,
+        "z": 0.7
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          -0.91,
+          -0.85
+        ],
+        "y": [
+          0.25,
+          0.45
+        ],
+        "z": [
+          0.55,
+          0.85
+        ]
+      },
+      "attach_node": "v154",
+      "drop_length": 0.235
+    },
+    {
+      "id": "DOOR_F_R",
+      "zone": "DOOR_F_R",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.88,
+        "y": 0.35,
+        "z": 0.7
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          0.85,
+          0.91
+        ],
+        "y": [
+          0.25,
+          0.45
+        ],
+        "z": [
+          0.55,
+          0.85
+        ]
+      },
+      "attach_node": "v7242",
+      "drop_length": 0.235
+    },
+    {
+      "id": "DOOR_R_L",
+      "zone": "DOOR_R_L",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": -0.88,
+        "y": -0.8,
+        "z": 0.7
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          -0.91,
+          -0.85
+        ],
+        "y": [
+          -0.9,
+          -0.7
+        ],
+        "z": [
+          0.55,
+          0.85
+        ]
+      },
+      "attach_node": "v284",
+      "drop_length": 0.125
+    },
+    {
+      "id": "DOOR_R_R",
+      "zone": "DOOR_R_R",
+      "thermal_class": "cabin",
+      "derating": 1.0,
+      "position": {
+        "x": 0.88,
+        "y": -0.8,
+        "z": 0.7
+      },
+      "orient": "wall_x",
+      "bbox": {
+        "x": [
+          0.85,
+          0.91
+        ],
+        "y": [
+          -0.9,
+          -0.7
+        ],
+        "z": [
+          0.55,
+          0.85
+        ]
+      },
+      "attach_node": "v6927",
+      "drop_length": 0.125
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "partition": {
+    "types": [
+      {
+        "id": "S32K344",
+        "cpu_cap": 342.0,
+        "ram_cap": 512.0,
+        "rom_cap": 4096.0,
+        "cost": 28.0,
+        "tops_cap": 0.0
+      },
+      {
+        "id": "TC397",
+        "cpu_cap": 4000.0,
+        "ram_cap": 7065.6,
+        "rom_cap": 16384.0,
+        "cost": 83.0,
+        "tops_cap": 0.0
+      },
+      {
+        "id": "S32G3",
+        "cpu_cap": 23920.0,
+        "ram_cap": 4194304.0,
+        "rom_cap": 33554432.0,
+        "cost": 176.0,
+        "tops_cap": 0.0
+      },
+      {
+        "id": "TDA4VH",
+        "cpu_cap": 64000.0,
+        "ram_cap": 16777216.0,
+        "rom_cap": 33554432.0,
+        "cost": 444.0,
+        "tops_cap": 0.0
+      }
+    ],
+    "max_per_asil_per_site": null
+  },
+  "site": {
+    "max_partitions": null,
+    "cpu_cap": null,
+    "ram_cap": null,
+    "rom_cap": null,
+    "fixed_cost": 70,
+    "switch_node_cost": 70
+  }
+}

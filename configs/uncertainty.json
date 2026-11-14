@@ -1,0 +1,51 @@
+{
+  "rho": {
+    "levels": [
+      0.0
+    ],
+    "growth_years": 5,
+    "growth_rate_ref": 0.2
+  },
+  "sw_margin": {
+    "free_capacity": {
+      "cpu": 0.25,
+      "tops": 0.25,
+      "ram": 0.25,
+      "rom": 0.0
+    }
+  },
+  "derating": {},
+  "redundancy": {},
+  "ai_contention": {},
+  "robust_latency": {
+    "sync_ms": 0.001,
+    "platform_mean_ms": 0.51,
+    "platform_p99_ms": 3.5
+  },
+  "growth": {
+    "profiles": {
+      "ADAS": 1.0,
+      "Driver": 1.0,
+      "Sensing": 1.0,
+      "Connectivity": 0.5,
+      "Infotainment": 0.5,
+      "DriveTrain": 0.5,
+      "BodyComfort": 0.5,
+      "Chassis": 0.5,
+      "Powertrain": 0.5,
+      "OccupantSafety": 0.5,
+      "Platform": 0.5
+    },
+    "default_profile": 0.5
+  },
+  "failures": {
+    "critical_asil_min": 3,
+    "recovery_ms": 50.0,
+    "classes": [
+      "cell",
+      "switch",
+      "cable"
+    ],
+    "gradual": true
+  }
+}

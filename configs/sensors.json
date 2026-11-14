@@ -1,0 +1,556 @@
+{
+  "sensors": [
+    {
+      "type": "CAMERA",
+      "id": "CAM_Rear_Left_Corner",
+      "interface": "ETH",
+      "volume": 288.0,
+      "position": {
+        "x": -0.561,
+        "y": -1.321,
+        "z": 1.476
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "CAMERA",
+      "id": "CAM_Front_Center",
+      "interface": "ETH",
+      "volume": 288.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.388,
+        "z": 1.447
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "CAMERA",
+      "id": "CAM_Rear_Right_Corner",
+      "interface": "ETH",
+      "volume": 288.0,
+      "position": {
+        "x": 0.561,
+        "y": -1.321,
+        "z": 1.476
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "CAMERA",
+      "id": "CAM_Front_Left",
+      "interface": "ETH",
+      "volume": 288.0,
+      "position": {
+        "x": -0.559,
+        "y": 0.36,
+        "z": 1.407
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "CAMERA",
+      "id": "CAM_Front_Right",
+      "interface": "ETH",
+      "volume": 288.0,
+      "position": {
+        "x": 0.559,
+        "y": 0.36,
+        "z": 1.407
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "CAMERA",
+      "id": "CAM_Left_Side",
+      "interface": "ETH",
+      "volume": 288.0,
+      "position": {
+        "x": -0.618,
+        "y": -0.302,
+        "z": 1.493
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "CAMERA",
+      "id": "CAM_Right_Side",
+      "interface": "ETH",
+      "volume": 288.0,
+      "position": {
+        "x": 0.617,
+        "y": -0.302,
+        "z": 1.494
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "CAMERA",
+      "id": "CAM_Rear_Center",
+      "interface": "ETH",
+      "volume": 288.0,
+      "position": {
+        "x": -0.0,
+        "y": -1.319,
+        "z": 1.512
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "LIDAR",
+      "id": "LIDAR_Front",
+      "interface": "ETH",
+      "volume": 9.42,
+      "position": {
+        "x": -0.0,
+        "y": 2.297,
+        "z": 0.555
+      },
+      "rate_hz": 20.0
+    },
+    {
+      "type": "LIDAR",
+      "id": "LIDAR_Left_Pillar",
+      "interface": "ETH",
+      "volume": 18.84,
+      "position": {
+        "x": -0.749,
+        "y": 0.83,
+        "z": 1.131
+      },
+      "rate_hz": 20.0
+    },
+    {
+      "type": "LIDAR",
+      "id": "LIDAR_Right_Pillar",
+      "interface": "ETH",
+      "volume": 18.84,
+      "position": {
+        "x": 0.745,
+        "y": 0.831,
+        "z": 1.132
+      },
+      "rate_hz": 20.0
+    },
+    {
+      "type": "LIDAR",
+      "id": "LIDAR_Rear",
+      "interface": "ETH",
+      "volume": 9.42,
+      "position": {
+        "x": -0.0,
+        "y": -2.267,
+        "z": 0.609
+      },
+      "rate_hz": 20.0
+    },
+    {
+      "type": "LIDAR",
+      "id": "LIDAR_Top",
+      "interface": "ETH",
+      "volume": 18.84,
+      "position": {
+        "x": -0.0,
+        "y": -0.305,
+        "z": 1.549
+      },
+      "rate_hz": 20.0
+    },
+    {
+      "type": "IMU",
+      "id": "IMU_Top_Center",
+      "interface": "SPI",
+      "volume": 0.04,
+      "position": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": 0.62
+      },
+      "rate_hz": 100.0
+    },
+    {
+      "type": "GPS",
+      "id": "GPS_Center",
+      "interface": "UART",
+      "volume": 0.02,
+      "position": {
+        "x": -0.001,
+        "y": -1.204,
+        "z": 1.586
+      },
+      "rate_hz": 20.0
+    },
+    {
+      "type": "ACCELERATOR_PEDAL",
+      "id": "accelerator_pedal",
+      "interface": "FLEXRAY",
+      "volume": 0.0128,
+      "position": {
+        "x": -0.4,
+        "y": 0.9,
+        "z": 0.45
+      },
+      "rate_hz": 100.0
+    },
+    {
+      "type": "BRAKE_PEDAL",
+      "id": "brake_pedal",
+      "interface": "UART",
+      "volume": 0.0128,
+      "position": {
+        "x": -0.3,
+        "y": 0.92,
+        "z": 0.45
+      },
+      "rate_hz": 200.0
+    },
+    {
+      "type": "CHARGE_PORT",
+      "id": "charge_port",
+      "interface": "CAN",
+      "volume": 0.00064,
+      "position": {
+        "x": 0.9,
+        "y": -1.75,
+        "z": 0.9
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "CHASSIS_INERTIAL_SENSOR",
+      "id": "chassis_inertial_sensor",
+      "interface": "CAN",
+      "volume": 0.0128,
+      "position": {
+        "x": 0.0,
+        "y": -0.1,
+        "z": 0.38
+      },
+      "rate_hz": 200.0
+    },
+    {
+      "type": "CLIMATE_SENSORS",
+      "id": "climate_sensors",
+      "interface": "LIN",
+      "volume": 0.00064,
+      "position": {
+        "x": 0.0,
+        "y": 1.05,
+        "z": 1.02
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "COLUMN_SWITCHES",
+      "id": "column_switches",
+      "interface": "FLEXRAY",
+      "volume": 0.0192,
+      "position": {
+        "x": -0.37,
+        "y": 0.78,
+        "z": 0.84
+      },
+      "rate_hz": 200.0
+    },
+    {
+      "type": "CRASH_SENSOR_FRONT_LEFT",
+      "id": "crash_sensor_front_left",
+      "interface": "UART",
+      "volume": 0.064,
+      "position": {
+        "x": -0.55,
+        "y": 2.25,
+        "z": 0.55
+      },
+      "rate_hz": 1000.0
+    },
+    {
+      "type": "CRASH_SENSOR_FRONT_RIGHT",
+      "id": "crash_sensor_front_right",
+      "interface": "UART",
+      "volume": 0.064,
+      "position": {
+        "x": 0.55,
+        "y": 2.25,
+        "z": 0.55
+      },
+      "rate_hz": 1000.0
+    },
+    {
+      "type": "CRASH_SENSOR_SIDE_LEFT",
+      "id": "crash_sensor_side_left",
+      "interface": "UART",
+      "volume": 0.064,
+      "position": {
+        "x": -0.86,
+        "y": -0.2,
+        "z": 0.45
+      },
+      "rate_hz": 1000.0
+    },
+    {
+      "type": "CRASH_SENSOR_SIDE_RIGHT",
+      "id": "crash_sensor_side_right",
+      "interface": "UART",
+      "volume": 0.064,
+      "position": {
+        "x": 0.86,
+        "y": -0.2,
+        "z": 0.45
+      },
+      "rate_hz": 1000.0
+    },
+    {
+      "type": "DOOR_LOCK_SWITCHES_LEFT",
+      "id": "door_lock_switches_left",
+      "interface": "CAN",
+      "volume": 0.00832,
+      "position": {
+        "x": -0.85,
+        "y": 0.3,
+        "z": 0.88
+      },
+      "rate_hz": 50.0
+    },
+    {
+      "type": "DOOR_LOCK_SWITCHES_RIGHT",
+      "id": "door_lock_switches_right",
+      "interface": "CAN",
+      "volume": 0.00832,
+      "position": {
+        "x": 0.85,
+        "y": 0.3,
+        "z": 0.88
+      },
+      "rate_hz": 50.0
+    },
+    {
+      "type": "DRIVER_CAMERA",
+      "id": "driver_camera",
+      "interface": "ETH",
+      "volume": 0.00128,
+      "position": {
+        "x": -0.3,
+        "y": 0.72,
+        "z": 0.98
+      },
+      "rate_hz": 20.0
+    },
+    {
+      "type": "EPB_SWITCH",
+      "id": "epb_switch",
+      "interface": "CAN",
+      "volume": 0.0032,
+      "position": {
+        "x": 0.05,
+        "y": 0.75,
+        "z": 0.8
+      },
+      "rate_hz": 50.0
+    },
+    {
+      "type": "GEAR_SELECTOR",
+      "id": "gear_selector",
+      "interface": "CAN",
+      "volume": 0.0096,
+      "position": {
+        "x": -0.3,
+        "y": 0.78,
+        "z": 0.88
+      },
+      "rate_hz": 100.0
+    },
+    {
+      "type": "KEYLESS_RECEIVER",
+      "id": "keyless_receiver",
+      "interface": "CAN",
+      "volume": 0.00576,
+      "position": {
+        "x": 0.0,
+        "y": -0.95,
+        "z": 1.5
+      },
+      "rate_hz": 50.0
+    },
+    {
+      "type": "MICROPHONES",
+      "id": "microphones",
+      "interface": "ETH",
+      "volume": 0.512,
+      "position": {
+        "x": 0.0,
+        "y": 0.3,
+        "z": 1.53
+      },
+      "rate_hz": 100.0
+    },
+    {
+      "type": "PARKING_SENSORS",
+      "id": "parking_sensors",
+      "interface": "LIN",
+      "volume": 0.00128,
+      "position": {
+        "x": 0.35,
+        "y": -2.25,
+        "z": 0.5
+      },
+      "rate_hz": 20.0
+    },
+    {
+      "type": "RAIN_LIGHT_SENSOR",
+      "id": "rain_light_sensor",
+      "interface": "CAN",
+      "volume": 0.00768,
+      "position": {
+        "x": 0.0,
+        "y": 0.42,
+        "z": 1.43
+      },
+      "rate_hz": 50.0
+    },
+    {
+      "type": "ROOF_ANTENNA",
+      "id": "roof_antenna",
+      "interface": "ETH",
+      "volume": 0.00128,
+      "position": {
+        "x": 0.0,
+        "y": -1.4,
+        "z": 1.62
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "SEAT_CONTROLS",
+      "id": "seat_controls",
+      "interface": "CAN",
+      "volume": 0.01408,
+      "position": {
+        "x": -0.67,
+        "y": 0.2,
+        "z": 0.52
+      },
+      "rate_hz": 100.0
+    },
+    {
+      "type": "SEAT_CONTROLS_RIGHT",
+      "id": "seat_controls_right",
+      "interface": "LIN",
+      "volume": 0.01152,
+      "position": {
+        "x": 0.67,
+        "y": 0.2,
+        "z": 0.52
+      },
+      "rate_hz": 100.0
+    },
+    {
+      "type": "START_BUTTON",
+      "id": "start_button",
+      "interface": "CAN",
+      "volume": 0.00704,
+      "position": {
+        "x": -0.22,
+        "y": 0.82,
+        "z": 0.92
+      },
+      "rate_hz": 100.0
+    },
+    {
+      "type": "STEERING_WHEEL_SWITCHES",
+      "id": "steering_wheel_switches",
+      "interface": "LIN",
+      "volume": 0.0032,
+      "position": {
+        "x": -0.37,
+        "y": 0.64,
+        "z": 0.92
+      },
+      "rate_hz": 50.0
+    },
+    {
+      "type": "TPMS_RECEIVER",
+      "id": "tpms_receiver",
+      "interface": "CAN",
+      "volume": 0.00064,
+      "position": {
+        "x": 0.0,
+        "y": -0.85,
+        "z": 0.42
+      },
+      "rate_hz": 10.0
+    },
+    {
+      "type": "WHEEL_SPEED_FL",
+      "id": "wheel_speed_FL",
+      "interface": "UART",
+      "volume": 0.0128,
+      "position": {
+        "x": -0.78,
+        "y": 1.44,
+        "z": 0.35
+      },
+      "rate_hz": 200.0
+    },
+    {
+      "type": "WHEEL_SPEED_FR",
+      "id": "wheel_speed_FR",
+      "interface": "UART",
+      "volume": 0.0128,
+      "position": {
+        "x": 0.78,
+        "y": 1.44,
+        "z": 0.35
+      },
+      "rate_hz": 200.0
+    },
+    {
+      "type": "WHEEL_SPEED_RL",
+      "id": "wheel_speed_RL",
+      "interface": "UART",
+      "volume": 0.0128,
+      "position": {
+        "x": -0.78,
+        "y": -1.57,
+        "z": 0.35
+      },
+      "rate_hz": 200.0
+    },
+    {
+      "type": "WHEEL_SPEED_RR",
+      "id": "wheel_speed_RR",
+      "interface": "UART",
+      "volume": 0.0128,
+      "position": {
+        "x": 0.78,
+        "y": -1.57,
+        "z": 0.35
+      },
+      "rate_hz": 200.0
+    },
+    {
+      "type": "WINDOW_SWITCHES_LEFT",
+      "id": "window_switches_left",
+      "interface": "CAN",
+      "volume": 0.01728,
+      "position": {
+        "x": -0.82,
+        "y": 0.12,
+        "z": 0.76
+      },
+      "rate_hz": 200.0
+    },
+    {
+      "type": "WINDOW_SWITCHES_RIGHT",
+      "id": "window_switches_right",
+      "interface": "CAN",
+      "volume": 0.016,
+      "position": {
+        "x": 0.82,
+        "y": 0.12,
+        "z": 0.76
+      },
+      "rate_hz": 200.0
+    }
+  ]
+}

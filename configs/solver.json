@@ -1,0 +1,61 @@
+{
+  "gurobi_params": "NoRelHeurTime=120",
+  "memory": {
+    "soft_share": 0.75,
+    "hard_share": 0.9
+  },
+  "lns": {
+    "enabled": false,
+    "time_share": 0.5,
+    "iter_s": 120,
+    "free_share": 0.3,
+    "stop_gap": 0.01,
+    "seed": 1
+  },
+  "pieces": {
+    "enabled": true,
+    "max_group": 20,
+    "min_group": 10,
+    "piece_time_s": 300,
+    "piece_gap": 0.01,
+    "piece_phase2_s": 5,
+    "max_backtrack": 2,
+    "polish_passes": 4,
+    "lock_gap": 1.0,
+    "piece_time_max_s": 1200,
+    "static_capacity": false,
+    "polish_rounds": 6,
+    "polish_time_s": 600,
+    "polish_partners": 10,
+    "polish_mode": "cell",
+    "polish_max_free": 200,
+    "step_gurobi_params": "NoRelHeurTime=20",
+    "heavy_first": true,
+    "polish_parallel": 1,
+    "build_parallel": 1,
+    "final_network_s": 1800,
+    "final_network_gap": 0.0,
+    "polish_stages": [
+      "cell",
+      "level",
+      "gpu"
+    ],
+    "polish_order": "fewest",
+    "gateway_in_build": false,
+    "polish_all": true,
+    "polish_min_gain": 0.001,
+    "polish_split_cells": true,
+    "gateway_convert_s": 3600,
+    "resume_dump": null,
+    "polish_gpu": "capped",
+    "polish_gpu_time_s": 3600,
+    "merge_rounds": 10,
+    "merge_time_s": 1800,
+    "merge_targets": "every"
+  },
+  "bound": {
+    "time_limit_s": 300,
+    "threads": 8,
+    "failover": true
+  }
+}
